@@ -6,17 +6,20 @@ var article1 = {
     
     title: 'Article 1 | Positive Boy',
     heading: 'B cool nd free Always :)',
+    div: `class="Can1"` ,
     content: 
            `<p>
            
             Positive thinking is a mental and emotional attitude that focuses on the bright side of life and expects positive results.A positive person anticipates happiness, health and success, and believes he or she can overcome any obstacle and difficulty.
-           </p>`
+           </p>
+           </div>`
          };
          
  var article2 = {
     
     title: 'Article 2 | Positive Tips ',
     heading: 'B cool nd free Always :)',
+    div: `class="Can2"` ,
     content: 
            `
             <ol>
@@ -28,13 +31,14 @@ var article1 = {
          <li>Believe you will succeed. ...</li>
          <li>Analyze what went wrong.</li>
         </ol>
-           
+    
            `
          };        
          
 var article3 = {
     title: 'Article 3 | Positive Attitude ',
     heading: 'B cool nd free Always :)',
+    div: `class="Can3"` ,
     content: 
           `
         <ol>
@@ -47,7 +51,7 @@ var article3 = {
          <li>Breathe.</li>
          <li>Analyze what went wrong.</li>
         </ol>
-           
+        </div>   
            `
 };         
 
@@ -55,6 +59,7 @@ function Template(data){
     var title = data.title;
     var heading = data.heading;
     var content = data.content;
+    var div = data.div;
     
 var htmlTemplate= `
           <!DOCTYPE html>
@@ -69,7 +74,7 @@ var htmlTemplate= `
             </head>
             
             <body>
-                <div class="Can1">
+                <div ${div}>
                
                     <h1> ${heading} </h1>
                     
