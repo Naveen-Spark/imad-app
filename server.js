@@ -49,8 +49,6 @@ var article3 = {
         </ol>
            
            `
-         };    
-    
 };         
 
 function Template(data){
