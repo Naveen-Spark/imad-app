@@ -31,3 +31,22 @@ body {
         font-family: cursive;
     }
 
+
+.Can2{
+        background: azure;
+        color: red;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: inherit;  
+        font-family: cursive;
+    }
+    
+.Can3{
+        background: azure;
+        color: green;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: inherit;  
+        font-family: cursive;
+    }    
+
