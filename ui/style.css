@@ -22,3 +22,12 @@ body {
     height: 200px;
 }
 
+    .Can1{
+            background: azure;
+            color: #00BCD4;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding: inherit;  
+            font-family: cursive;
+        }
+
